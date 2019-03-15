@@ -1,0 +1,18 @@
+<div style="background-color: antiquewhite; margin: 12% 40%; height: 230px;">
+  <h2 style="padding-left: 140px; padding-top: 15px;">Login</h2>
+  <div style="text-align: center;">
+    <div style="padding-right: 50px; padding-bottom: 20px">
+      <i style="padding-right: 25px; font-size: 25px;" class="material-icons">person</i>
+      <input required="required" autofocus="autofocus" style="font-size: 18px"
+      name="username"
+      [(ngModel)]="credentials.username">
+    </div>
+    <div style="padding-right: 50px;">
+      <i style="padding-right: 25px; font-size: 25px;" class="material-icons">vpn_key</i>
+      <input required="required" name="password" style="font-size: 18px"
+      [(ngModel)]="credentials.password">
+    </div>
+    <button style="font-size: 12px; text-transform: uppercase; margin-right: 5px; margin: 25px;"
+     color="primary" mat-raised-button mat-button>Login</button>
+  </div>
+</div>
